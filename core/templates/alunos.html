@@ -1,0 +1,74 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <title>Alunos</title>
+</head>
+<body>
+
+<div class="content-box">
+    <h1>Lista de Alunos</h1>
+    <div class="table-content">
+        <table border="1">
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Email</th>
+                <th>Cidade</th>
+                <th>Curso</th>
+                <th>Ações</th>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>1 de Outubro de 2004</td>
+                <td>joao@email.com</td>
+                <td>Alexandria</td>
+                <td>ADS</td>
+                <td><a href="#" class="btn-edit">Editar</a></td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>30 de março de 1998</td>
+                <td>maria@email.com</td>
+                <td>Marcelino Vieira</td>
+                <td>INFO</td>
+                <td><a href="#" class="btn-edit">Editar</a></td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>22 de maio de 2001</td>
+                <td>pedro@email.com</td>
+                <td>Itaú</td>
+                <td>QUIMICA</td>
+                <td><a href="#" class="btn-edit">Editar</a></td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>28 de julho de 2003</td>
+                <td>ana@email.com</td>
+                <td>Bom Sucesso</td>
+                <td>ALIMENTOS</td>
+                <td><a href="#" class="btn-edit">Editar</a></td>
+            </tr>
+            <tr>
+                <td>Luís</td>
+                <td>31 de janeiro de 2000</td>
+                <td>luis@email.com</td>
+                <td>Pau dos Ferros</td>
+                <td>APICULTURA</td>
+                <td><a href="#" class="btn-edit">Editar</a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="new-register">
+    <a href="new-register"><button id="new-register">Novo Cadastro</button></a>
+</div>
+
+
+</body>
+</html>
